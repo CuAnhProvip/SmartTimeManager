@@ -1,0 +1,17 @@
+## Ignore Visual Studio Junk
+.vs/
+[Db]g/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore Build Outputs
+bin/
+obj/
+x64/
+x86/
+
+## Keep SQLite Database structure but ignore personal test data if wanted
+## (Nếu bạn muốn giữ lại file DB mẫu cho thầy chấm thì xóa dòng dưới này đi)
+*.db
